@@ -1,4 +1,4 @@
-using Scalar.AspNetCore;
+﻿using Scalar.AspNetCore;
 using TareaApi.Api.Data;
 using TareaApi.Api.Services;
 using TareaApi.Api.Services.Interfaces;
@@ -29,3 +29,4 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
